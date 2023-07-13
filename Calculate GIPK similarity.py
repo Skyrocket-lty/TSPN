@@ -1,7 +1,7 @@
 # -*- codeing = utf-8 -*-
 # @Time : 2022/10/18 21:20
 # @Author : 刘体耀
-# @File : TNNRSMMA.py
+# @File : TSPN.py
 # @Software: PyCharm
 
 import numpy as np
@@ -35,7 +35,7 @@ def Gaussian_SM():
             if(SM[i,j]==0):
                 SM[i,j]=SM1[i,j]
     return SM
-#基于数据集2计算mirna高斯轮廓核相似性
+#基于数据集1计算mirna高斯轮廓核相似性
 def Gaussian_MM():
     column=541
     sum=0
