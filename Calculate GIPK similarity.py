@@ -35,7 +35,7 @@ def Gaussian_SM():
             if(SM[i,j]==0):
                 SM[i,j]=SM1[i,j]
     return SM
-#基于数据集1计算mirna高斯轮廓核相似性
+#基于数据集1计算miRNA高斯轮廓核相似性
 def Gaussian_MM():
     column=541
     sum=0
@@ -69,7 +69,7 @@ def Gaussian_SM_2():
             if(SM_2[i,j]==0):
                 SM_2[i,j]=SM1[i,j]
     return SM_2
-#基于数据集2计算mirna高斯轮廓核相似性
+#基于数据集2计算miRNA高斯轮廓核相似性
 def Gaussian_MM_2():
     column=286
     sum=0
